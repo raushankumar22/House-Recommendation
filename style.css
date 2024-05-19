@@ -1,0 +1,54 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  #housing-layout {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .plot {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plot:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  }
+  
+  #recommended-house {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  #recommended-house h2 {
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .house-label {
+    font-weight: bold;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  main {
+    margin: 2rem 0;
+  }
